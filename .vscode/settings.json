@@ -1,0 +1,23 @@
+{
+    "dbcode.connections": [
+        {
+            "connectionId": "S83s0acVOec0Z2ZWh6tG9",
+            "name": "api-super-flights",
+            "driver": "mongodb",
+            "color": "#0074B3",
+            "connectionType": "host",
+            "driverOptions": {
+                "protocol": "mongodb://"
+            },
+            "host": "localhost",
+            "port": 27017,
+            "ssl": false,
+            "username": "admin",
+            "password": "",
+            "savePassword": "secretStorage",
+            "database": "superflights",
+            "readOnly": false,
+            "connectionTimeout": 30
+        }
+    ]
+}
